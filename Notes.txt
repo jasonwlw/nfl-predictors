@@ -1,0 +1,11 @@
+Simulate: How often on average does a team run or pass? What percentage? How often do they utilize a particular running back or wide receiver, what percentage of the time? The talent of the running back, wide receiver/quarterback with the defensive talent at blocking that particular play (Yards allowed passing, running averaged for team with talent of defense taken into account) should allow a regression to find the yards given on a particular play. We can potentially repeat this simulation thousands of time to predict who will win a majority of times (bootstrapping)
+
+Evaluate talent with player stats: Will need to join multiple datasets 
+
+Simply use percentages with variance to run a monte carlo simulation? At least for starters to see if it works well?
+
+May want to try and categorize teams, or use several parameters to sum up what "type" of team they are (primary running, run defense heavy, pass heavy, all around, some combination of the them, etc., kind of like those personality tests where you're 20% INTP or whateverit is) based on their overall talent (this can be a neural network for categorizing) and see how similar teams that have played performed in the past, rather than going by team name itself. 
+
+Each of these percentages will have a variance (because of variance in player stats?) and will be impacted based on games; i.e. coaches adjust plays and such for different teams. 
+
+
